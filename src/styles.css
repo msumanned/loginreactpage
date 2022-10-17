@@ -1,0 +1,117 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    line-height: 2.5;
+    font-family: Poppins-Regular,sans-serif;
+   
+}
+
+.maindiv{
+    background-image: url("https://colorlib.com/etc/lf/Login_v18/images/bg-01.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.container2 {
+    
+    background: #fff;
+    padding: 173px 55px 55px;
+    width: 45%;
+    height: 100%;
+    position: relative;
+    left: 45%;
+
+}
+
+.input {
+    display: block;
+    margin: 10px;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: x-large;
+    padding: 25px;
+    border: 0.1px solid #e6e6e6;
+   
+}
+
+.start p {
+    font-weight: 500;
+    font-size: xx-large;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 2.5;
+    font-size: medium;
+    color: grey;
+}
+
+.login {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.login input{
+    width: 100%;
+    height: 60px;
+    font-size: larger;
+    border-radius: 10px;
+    background-color: #6675df;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.end p{
+    color: grey;
+    font-size: medium;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fb_img {
+    height: 50px;
+    
+}
+.tw_img {
+    height: 40px;
+    border-radius: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+/* @media (max-width: 992px)
+.container2 {
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+} */
+
+.input:hover{
+    border: 1px solid blue;
+}
+.login input:hover{
+  background-color: #333;
+  cursor: pointer;
+}
